@@ -1,0 +1,58 @@
+/************************************** 1.1 Header	**************************************/
+header{
+	height: 80px;
+	border-bottom: 1px solid #dddddd;
+	padding: 20px 30px;
+	.logo{
+		line-height: 40px;
+		a{
+			border: 2px solid #000;
+			padding: 5px 5px 5px 10px;
+			font-weight: bold;
+			color: #000;
+			font-family: Montserrat;
+			font-size: 14px;
+			letter-spacing: 5px;
+			&:hover{
+				text-decoration: none;
+				color: $color;
+				border: 2px solid $color;
+			}
+		}
+	}
+	.navbar{
+		padding: 0;
+		margin: 0;
+		ul{
+			li{
+				a{
+					font-weight: bold;
+					font-size: 14px;
+					color: #000 !important;
+					padding-right: 48px !important;
+					&:hover{
+						color: $color !important;
+					}
+					i{
+						line-height: 40px;
+					}
+				}
+			}
+		}
+		button{
+			border: none;
+			color: #000;
+		}
+	}
+	.header-right{
+		line-height: 40px;
+		a{
+			margin-left: 30px;
+			color: #000;
+			font-size: 20px;
+			&:hover{
+				color: $color;
+			}
+		}
+	}
+}

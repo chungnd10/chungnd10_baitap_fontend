@@ -1,0 +1,90 @@
+// Small devices (landscape phones, 576px)
+@media (max-width: 576px) {
+	.header-right{
+		.wishlist{
+			display: none;
+		}
+		a{
+			margin-left: 5px;
+		}
+	}
+}
+@media (max-width: 768px) {
+	header{
+		.menu-mobile{
+			display: flex;
+			justify-content: flex-start;
+		}
+		.logo{
+			display: flex;
+			justify-content: center;
+			line-height: 20px;
+		}
+
+		#nav-mobile{
+			z-index: 200;
+			background: #fff;
+			ul{
+				li{
+					border-top: 1px solid #dddddd;
+					width: 300px;
+					a{
+						padding-left: 20px;
+					}
+				}
+			}
+		}
+	}
+
+	#shop{
+		.item{
+			.img-item{
+				img{
+					width: 100% ;
+				}
+			}
+		}
+	}
+
+	#slider{
+		.item-slider{
+			.img-slider{
+				max-height: 160px !important;
+			}
+		}
+	}
+
+	footer{
+		.container-fuild{
+			.coppy-right{
+				p{
+					display: flex;
+					justify-content: center;
+					line-height: 40px;
+				}
+				.heart{
+					line-height: 40px;
+				}
+			}
+		}
+
+		.payment{
+			line-height: 40px;
+			display: flex;
+			justify-content: center;
+		}
+	}
+}
+// Large devices (desktops, 992px)
+@media screen and (min-width: 769px) {
+	header{
+		.menu-mobile{
+			display: flex;
+			justify-content: center;
+		}
+	}
+}
+// Large devices (desktops, 1200px)
+@media (max-width: 1200px) {
+	max-width: 1140px;
+}

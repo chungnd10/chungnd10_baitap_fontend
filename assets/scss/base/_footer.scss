@@ -1,0 +1,91 @@
+/************************************** 1.2 Footer	**************************************/
+footer{
+	background: #222;
+	width: 100%;
+	color: #888;
+	padding-top: 60px;
+	font-family: $font-openSan;
+	a{
+		color: #888;
+		font-size: 14px;
+	}
+	hr{
+		background: #888;
+		margin: 30px 0 20px 0 !important;
+	}
+	h4{
+		font-size: 16px !important;
+		font-weight: 600;
+		color: #fff;
+	}
+	p{
+		font-size: 14px;
+	}
+	.footer-top{
+		padding-bottom: 25px;
+	}
+	.footer-descreption{
+		p{
+			line-height: 23px !important;
+			margin-bottom: 40px !important;
+		}
+	}
+	.social{
+		ul{
+			li{
+				a{
+					margin-right: 15px;
+					&:hover{
+						color: #fff;
+					}
+				}
+			}
+		}
+	}
+	.container-fuild{
+		border-top: 1px solid #888;
+		line-height: 70px;
+		.coppy-right{
+			p{
+				margin: 0;
+				font-family: 'Open Sans', sans-serif;
+			}
+			.heart{
+				color: #ff4628;
+			}
+			.text-right{
+				padding-right: 0;
+			}
+		}
+	}
+	.payment{
+		margin: 0;
+		i{
+			font-size: 19px;
+			&:hover{
+				color: #fff;
+			}
+		}
+	}
+	.footer-navigation{
+		li{
+			a{
+				line-height: 30px !important;
+				display: block;
+				&:hover{
+					color: #fff;
+				}
+			}
+		}
+	}
+	
+	.location{
+		p{
+			line-height: 24px;
+		}
+		i{
+			float: left;
+			margin:3px 15px 0 0;
+		}
+	}
+}

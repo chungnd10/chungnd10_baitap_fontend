@@ -1,0 +1,21 @@
+/* 
+1.0 Base
+    1.1 Header
+    1.2 Footer
+2.0 Content
+    2.1 Home Page Content
+    2.2 Shop
+*/
+
+$font-pacifico: 'Pacifico', sans-serif;
+$font-openSan : 'OpenSans', sans-serif;
+$color:#8262b5;
+$color-star: #f8ba04;
+*{box-sizing: border-box;}
+
+@import './base/header';
+@import './base/footer';
+@import './base/_responsive';
+@import './content/_home_page_content';
+@import './content/_shop';
+
