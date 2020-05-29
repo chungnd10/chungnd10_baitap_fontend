@@ -80,6 +80,13 @@ footer{
 	}
 	
 	.location{
+		ul{
+			li{
+				.address{
+					padding-left: 30px;
+				}
+			}
+		}
 		p{
 			line-height: 24px;
 		}

@@ -164,11 +164,15 @@ footer .footer-navigation li a {
 footer .footer-navigation li a:hover {
   color: #fff;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nguyenducchung\/Sites\/AHT\/project\/assets\/scss\/base\/_footer\.scss}line{font-family:\0000383}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nguyenducchung\/Sites\/AHT\/project\/assets\/scss\/base\/_footer\.scss}line{font-family:\0000385}}
+footer .location ul li .address {
+  padding-left: 30px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nguyenducchung\/Sites\/AHT\/project\/assets\/scss\/base\/_footer\.scss}line{font-family:\0000390}}
 footer .location p {
   line-height: 24px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nguyenducchung\/Sites\/AHT\/project\/assets\/scss\/base\/_footer\.scss}line{font-family:\0000386}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nguyenducchung\/Sites\/AHT\/project\/assets\/scss\/base\/_footer\.scss}line{font-family:\0000393}}
 footer .location i {
   float: left;
   margin: 3px 15px 0 0;
