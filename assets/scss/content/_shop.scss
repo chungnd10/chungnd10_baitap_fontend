@@ -1,21 +1,21 @@
 /*********************************** 2.2 Shop ******************************************/
 #shop{
 	padding-bottom: 30px;
+	font-family: $font-mont;
 	.title-shop{
 		margin-bottom: 50px;
 		span{
 			color: $color;
 			font-size: 12px;
 			font-weight: bold;
-			letter-spacing: 2px;
+			letter-spacing: 0.2em;
 		}
 		h3{
-			font-family: Montserrat;
 			font-weight: bold;
 			font-size: 24px;
 			margin: 10px 0 22px 0;
 			color: #000;
-			letter-spacing: 2px;
+			letter-spacing: 0.2em;
 		}
 		.title-underline{
 			width: 50px;
@@ -25,16 +25,15 @@
 	}
 	.item{
 		padding-bottom: 43px;
-
 		.img-item{
 			position: relative;
 			overflow: hidden;
+			background: #ededed;
 			.add-to-cart{
 				position: absolute;
 				bottom: 5px;
 				left: 5px;
 				a{
-					font-family: Montserrat;
 					font-size: 12px;
 					color: #424242;
 					background: #fff;
@@ -71,6 +70,7 @@
 			.old-price{
 				color: #999;
 				text-decoration: line-through;
+				font-family: $font-openSan;
 			}
 			.sale-price{
 				color: $color;

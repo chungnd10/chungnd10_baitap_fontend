@@ -11,13 +11,9 @@
 }
 @media (max-width: 768px) {
 	header{
-		.menu-mobile{
-			display: flex;
-			justify-content: flex-start;
-		}
 		.logo{
-			display: flex;
 			justify-content: center;
+			display: flex;
 			line-height: 20px;
 		}
 
@@ -31,16 +27,6 @@
 					a{
 						padding-left: 20px;
 					}
-				}
-			}
-		}
-	}
-
-	#shop{
-		.item{
-			.img-item{
-				img{
-					width: 100% ;
 				}
 			}
 		}
@@ -75,16 +61,78 @@
 		}
 	}
 }
-// Large devices (desktops, 992px)
-@media screen and (min-width: 769px) {
+
+
+@media screen and (max-width: 991px){
+	header{
+		.menu-mobile{
+			display: flex;
+			justify-content: flex-start;
+		}
+	}
+	#shop{
+		.item{
+			.img-item{
+				img{
+					width: 100%;
+				}
+			}
+		}
+	}
+}
+
+
+@media screen and (min-width: 992px){
+	header{
+		.menu-mobile{
+			display: flex;
+			justify-content: flex-end;
+		}
+		#nav-mobile{
+			ul{
+				li{
+					a{
+						padding-right: 15px !important;
+					}
+				}
+			}
+		}
+	}
+}
+
+@media screen and (min-width: 1200px){
+	header{
+		#nav-mobile{
+			ul{
+				li{
+					a{
+						padding-right: 30px !important;
+					}
+				}
+			}
+		}
+	}
+}
+@media screen and (min-width: 1400px) {
 	header{
 		.menu-mobile{
 			display: flex;
 			justify-content: center;
 		}
+		#nav-mobile{
+			ul{
+				li{
+					a{
+						padding-right: 48px !important;
+					}
+				}
+			}
+		}
 	}
 }
-// Large devices (desktops, 1200px)
-@media (max-width: 1200px) {
-	max-width: 1140px;
-}
+
+
+
+
+
+

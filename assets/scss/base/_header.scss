@@ -3,22 +3,9 @@ header{
 	height: 80px;
 	border-bottom: 1px solid #dddddd;
 	padding: 20px 30px;
+	font-family: $font-mont;
 	.logo{
 		line-height: 40px;
-		a{
-			border: 2px solid #000;
-			padding: 5px 5px 5px 10px;
-			font-weight: bold;
-			color: #000;
-			font-family: Montserrat;
-			font-size: 14px;
-			letter-spacing: 5px;
-			&:hover{
-				text-decoration: none;
-				color: $color;
-				border: 2px solid $color;
-			}
-		}
 	}
 	.navbar{
 		padding: 0;
@@ -30,6 +17,7 @@ header{
 					font-size: 14px;
 					color: #000 !important;
 					padding-right: 48px !important;
+					
 					&:hover{
 						color: $color !important;
 					}

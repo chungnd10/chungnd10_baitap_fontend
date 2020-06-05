@@ -7,15 +7,18 @@
     2.2 Shop
 */
 
+
 $font-pacifico: 'Pacifico', sans-serif;
 $font-openSan : 'OpenSans', sans-serif;
+$font-mont: 'Montserrat', sans-serif;
 $color:#8262b5;
 $color-star: #f8ba04;
 *{box-sizing: border-box;}
 
-@import './base/header';
-@import './base/footer';
-@import './base/_responsive';
+@import './base/_typography';
+@import './base/_header';
+@import './base/_footer';
 @import './content/_home_page_content';
 @import './content/_shop';
+@import './base/_responsive';
 
